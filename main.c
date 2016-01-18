@@ -12,7 +12,7 @@ typedef struct
 
 int main()
 {
-   UID E1("Anand",0001);
-   printf("%s\n%d\n",E1.name),E1.id;
+   UID E1={"Anand",0001};
+   printf("%s\n%d\n",E1.name,E1.id);
    return 1;
 }
